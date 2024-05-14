@@ -1,0 +1,14 @@
+$fontColor: white;
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: aqua;
+
+  h1,
+  h2 {
+    color: $fontColor;
+  }
+}
