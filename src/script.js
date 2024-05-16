@@ -9,4 +9,5 @@ if (value > 3) {
   console.log("Value bigger than 3");
 }
 
+console.log("Changes");
 console.log("End");

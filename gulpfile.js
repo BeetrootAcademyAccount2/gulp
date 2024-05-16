@@ -51,3 +51,8 @@ gulp.task("scripts", async () => {
 });
 
 gulp.task("default", gulp.series("message", "scripts"));
+
+gulp.task("watch", async () => {
+  gulp.watch("src/script.js", gulp.series("scripts"));
+  gulp.watch("src/styles/styles.scss", gulp.series("sass"));
+});
